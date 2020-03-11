@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - NewVoiceMaskView (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - NewVoiceMaskView (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  NewVoiceMaskView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  NewVoiceMaskView: 9b668c4b68e04926838a5ede0848f8300f1fc705
+
+PODFILE CHECKSUM: fe81dc55e9829c7439e1a910b83b7db54f2b5bfe
+
+COCOAPODS: 1.8.4

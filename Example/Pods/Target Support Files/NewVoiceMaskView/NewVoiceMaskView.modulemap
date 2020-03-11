@@ -1,0 +1,6 @@
+framework module NewVoiceMaskView {
+  umbrella header "NewVoiceMaskView-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module Pods_NewVoiceMaskView_Example {
+  umbrella header "Pods-NewVoiceMaskView_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
