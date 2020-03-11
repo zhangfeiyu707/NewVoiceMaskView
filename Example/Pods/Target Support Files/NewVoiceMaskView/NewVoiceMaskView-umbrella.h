@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "NEWVAppDelegate.h"
 #import "NewVoiceMaskView.h"
 
 FOUNDATION_EXPORT double NewVoiceMaskViewVersionNumber;

@@ -7,7 +7,7 @@
 //
 
 #import "NEWVViewController.h"
-
+#import "NewVoiceMaskView.h"
 @interface NEWVViewController ()
 
 @end
@@ -18,6 +18,7 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    NewVoiceMaskView *maskV = [NewVoiceMaskView makeViewWithMask:self.view.bounds andView:nil];
 }
 
 - (void)didReceiveMemoryWarning

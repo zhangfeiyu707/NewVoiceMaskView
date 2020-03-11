@@ -7,7 +7,7 @@
 //
 
 #import "NewVoiceMaskView.h"
-//#import "NEWVAppDelegate.h"
+#import "NEWVAppDelegate.h"
 @implementation NewVoiceMaskView
 
 //初始化View以及添加单击蒙层逻辑
@@ -27,9 +27,9 @@
 //蒙层添加到Window上
 +(instancetype)makeViewWithMask:(CGRect)frame andView:(UIView*)view {
    NewVoiceMaskView *mview = [[self alloc]initWithFrame:frame];
-//   NEWVAppDelegate *delegate = (AppDelegate *)[NEWVAppDelegate sharedApplication].delegate;
-//   [delegate.window addSubview:mview];
-//   [mview addSubview:view];
+   NEWVAppDelegate *delegate = (NEWVAppDelegate *)[UIApplication sharedApplication].delegate;;
+   [delegate.window addSubview:mview];
+   [mview addSubview:view];
    return mview;
 }
 

@@ -3,6 +3,7 @@ use_frameworks!
 platform :ios, '8.0'
 
 target 'NewVoiceMaskView_Example' do
+source 'https://github.com/CocoaPods/Specs.git'
   pod 'NewVoiceMaskView', :path => '../'
 
   target 'NewVoiceMaskView_Tests' do
